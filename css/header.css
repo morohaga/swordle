@@ -1,0 +1,42 @@
+/*  class="header-title" / "header-column" */
+/* column 안에 "header-left" / "header-right" */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+}
+
+.header-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-style: initial;
+  font-weight: bold;
+  position: absolute;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
